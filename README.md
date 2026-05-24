@@ -97,7 +97,7 @@ Packet Parsing
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/SecureLink.git
+git clone https://github.com/Kaan72devv/SecureLink.git
 ```
 
 Move into the project directory:
