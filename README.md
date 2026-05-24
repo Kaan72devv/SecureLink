@@ -36,25 +36,6 @@ SecureLink uses encrypted JSON packets between clients and the server using Fern
 
 ---
 
-# Project Structure
-
-```text
-SecureLink/
-│
-├── Client/
-│   └── client.py
-│
-├── Server/
-│   └── server.py
-│
-├── shared_key.py
-├── requirements.txt
-├── README.md
-└── .gitignore
-```
-
----
-
 # How It Works
 
 The client:
@@ -119,13 +100,13 @@ pip install -r requirements.txt
 Start the server:
 
 ```bash
-python Server/server.py
+python server.py
 ```
 
 Start the client:
 
 ```bash
-python Client/client.py
+python client.py
 ```
 
 You can run multiple clients simultaneously.
